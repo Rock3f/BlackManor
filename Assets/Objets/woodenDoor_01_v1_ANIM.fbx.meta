@@ -6,7 +6,17 @@ ModelImporter:
   - first:
       74: 2890389298847702017
     second: DoorBone|ArmatureAction
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Door
+    second: {fileID: 2100000, guid: 93ca67c484b2b4e7dbfdf0af2f33130d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Handle
+    second: {fileID: 2100000, guid: 454f98bb9d07a485380f6658cb94821e, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

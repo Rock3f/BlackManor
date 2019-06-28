@@ -6,7 +6,12 @@ ModelImporter:
   - first:
       74: -3100628101864396295
     second: Sphere|SphereAction
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: 81d68cad08bd34742b9a11e4eaf997dd, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
