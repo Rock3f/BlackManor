@@ -18,23 +18,9 @@ public class Portkitomb : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("entered");
         if (other.gameObject.tag == "Player")
         {
             enter = true;
         }
-        
-    }
-
-    // stayCount allows the OnTriggerStay to be displayed less often
-    // than it actually occurs.
-    private void OnTriggerStay(Collider other)
-    {
-        Debug.Log("stay");
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        Debug.Log("exit");
     }
 }
